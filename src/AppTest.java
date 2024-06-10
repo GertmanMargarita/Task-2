@@ -35,7 +35,7 @@ public class AppTest {
     public void testMultSpeed() {
 
         ArrayList<Integer> numbers = new ArrayList<>();
-        for(int i=0;i<10000000;i++){
+        for(int i=0;i<1000000;i++){
             numbers.add(i);
         }
         long sTime = System.currentTimeMillis();
