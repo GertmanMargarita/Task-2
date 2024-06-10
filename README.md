@@ -1,3 +1,4 @@
+[![Build Status](https://github.com/GertmanMargarita/FirstProject/workflows/Windows./badge.svg)](https://github.com/telegramdesktop/tdesktop/actions)
 ## Техническое задание №2 (ТЗ2)
 
 Добавляем тесты и разворачиваем простейший CI/CD
