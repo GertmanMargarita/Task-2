@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/GertmanMargarita/FirstProject/actions/workflows/WORKFLOW-FILE/badge.svg)]
+[![Build Status](https://github.com/GertmanMargarita/FirstProject/actions/workflows/main.yml/badge.svg)]
 ## Техническое задание №2 (ТЗ2)
 
 Добавляем тесты и разворачиваем простейший CI/CD
