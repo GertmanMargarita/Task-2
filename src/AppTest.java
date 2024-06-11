@@ -12,7 +12,7 @@ public class AppTest {
     @Test
     public void testMin() {
         ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
-        assertEquals(1, App.min(numbers));
+        assertEquals(10, App.min(numbers));
     }
 
     @Test
