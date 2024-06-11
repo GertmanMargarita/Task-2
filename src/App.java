@@ -5,17 +5,17 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 public class App {
-    public static int min (ArrayList<Integer> numbers) {	
+    public static int _min (ArrayList<Integer> numbers) {	
 	    int min = Collections.min(numbers);
 	    return min;
     }
 	
-    public static int max (ArrayList<Integer> numbers) {	
+    public static int _max (ArrayList<Integer> numbers) {	
 	    int max = Collections.max(numbers);
 	    return max;
     }
 	
-    public static BigInteger sum (ArrayList<Integer> numbers) {
+    public static BigInteger _sum (ArrayList<Integer> numbers) {
 	    BigInteger sum = BigInteger.ZERO;
 	    for (int i = 0; i < numbers.size(); i++) {
 	   	    sum = sum.add(BigInteger.valueOf(numbers.get(i)));
@@ -23,7 +23,7 @@ public class App {
 	    return sum;
     }
 	
-    public static BigInteger mult (ArrayList<Integer> numbers) {
+    public static BigInteger _mult (ArrayList<Integer> numbers) {
 	    BigInteger mult = BigInteger.ONE;
 	    for (int i = 0; i < numbers.size(); i++) {
 		    mult = mult.multiply(BigInteger.valueOf(numbers.get(i)));
@@ -44,12 +44,11 @@ public class App {
 				System.out.print(number + " ");
 			}
 			sc.close();			
-			System.out.println("Минимальное: " + min(arrayA));
-			System.out.println("Максимальное: " + max(arrayA));
-			System.out.println("Сумма: " + sum(arrayA));
-			System.out.println("Произведение: " + mult(arrayA));
-			String className = App.class.getSimpleName();
-            System.out.println(className);
+			System.out.println("Минимальное: " + _min(arrayA));
+			System.out.println("Максимальное: " + _max(arrayA));
+			System.out.println("Сумма: " + _sum(arrayA));
+			System.out.println("Произведение: " + _mult(arrayA));
+			
 		}
 		catch (FileNotFoundException e) {
 			System.out.println("Ошибка чтения файла " + fileName);
