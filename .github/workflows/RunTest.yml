@@ -17,4 +17,4 @@ jobs:
         distribution: 'temurin'
   
     - name: Run Ant tests
-      run: ant -buildfile build.xml run-test
+      run: ant -buildfile build.xml run-tests
