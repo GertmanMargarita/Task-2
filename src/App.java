@@ -48,6 +48,8 @@ public class App {
 			System.out.println("Максимальное: " + max(arrayA));
 			System.out.println("Сумма: " + sum(arrayA));
 			System.out.println("Произведение: " + mult(arrayA));
+			//String className = App.class.getSimpleName();
+            //System.out.println(className);
 		}
 		catch (FileNotFoundException e) {
 			System.out.println("Ошибка чтения файла " + fileName);
