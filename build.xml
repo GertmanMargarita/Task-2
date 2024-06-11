@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="FirstProject" default="dist" basedir=".">
+<project name="FirstProject" default="run-tests" basedir=".">
     <description>
         Test 2
     </description>
