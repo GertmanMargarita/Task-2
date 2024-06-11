@@ -1,0 +1,10 @@
+<target name="run-tests">
+    <junit printsummary="yes" haltonfailure="yes">
+        <classpath>
+            <pathelement location="lib/junit-4.13.2.jar"/>
+            <pathelement path="${java.class.path}"/>
+        </classpath>
+        <formatter type="brief" usefile="false"/>
+        <test name="ExampleTest"/>
+    </junit>
+</target>
