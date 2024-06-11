@@ -1,10 +1,17 @@
-<target name="run-tests">
-    <junit printsummary="yes" haltonfailure="yes">
-        <classpath>
-            <pathelement location="lib/junit-4.13.2.jar"/>
-            <pathelement path="${java.class.path}"/>
-        </classpath>
-        <formatter type="brief" usefile="false"/>
-        <test name="ExampleTest"/>
-    </junit>
-</target>
+<?xml version="1.0"?>
+
+<project name="MyProject" default="dist" basedir=".">
+    <description>
+        Test 2
+    </description>
+    <target name="run-tests">
+        <junit printsummary="yes" haltonfailure="yes">
+            <classpath>
+                <pathelement location="lib/junit-4.13.2.jar"/>
+                <pathelement path="${java.class.path}"/>
+            </classpath>
+            <formatter type="brief" usefile="false"/>
+            <test name="ExampleTest"/>
+        </junit>
+    </target>
+</project>
