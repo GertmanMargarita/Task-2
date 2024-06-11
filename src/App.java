@@ -8,6 +8,7 @@ public class App {
     public static int _min (ArrayList<Integer> numbers) {	
 	    int min = Collections.min(numbers);
 	    return min;
+	    //test
     }
 	
     public static int _max (ArrayList<Integer> numbers) {	
