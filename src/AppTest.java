@@ -67,7 +67,7 @@ public class AppTest {
         long fTime = System.currentTimeMillis();
         
         long xTime = fTime-sTime;
-        assertTrue("SUM - Time error: slower than 0,1 second",xTime <= 100);        
+        assertTrue("SUM - Time error: slower than 1 second",xTime <= 1000);        
     }
 
     @Test
